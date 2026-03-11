@@ -10,21 +10,21 @@ In this project, I leveraged the Executing Automation Workflow Using AWS SSM Aut
 
 🛠️ Technical Steps Taken
 
-+ Workflow Definition: Authored a JSON-based SSM Automation document to define sequential steps for AWS API calls.
+1 Workflow Definition: Authored a JSON-based SSM Automation document to define sequential steps for AWS API calls.
 
-+ Resource Provisioning: Configured the automation to launch EC2 instances with a pre-defined IAM role (MyEC2SSMRole) to ensure the SSM Agent could communicate with the service immediately.
+2 Resource Provisioning: Configured the automation to launch EC2 instances with a pre-defined IAM role (MyEC2SSMRole) to ensure the SSM Agent could communicate with the service immediately.
 
-+ Dynamic Bootstrapping: Implemented logic to allow the user to choose between deploying MariaDB or Apache (httpd) at runtime.
+3 Dynamic Bootstrapping: Implemented logic to allow the user to choose between deploying MariaDB or Apache (httpd) at runtime.
 
-+ Security-Focused Validation: Used AWS Systems Manager Session Manager to access the instances securely (no SSH/Port 22 required) and verify the success of the deployment.
+4 Security-Focused Validation: Used AWS Systems Manager Session Manager to access the instances securely (no SSH/Port 22 required) and verify the success of the deployment.
 
-📂 Repository Structure
+**📂 Repository Structure**
 
-/templates: Contains the JSON Automation Document used to define the workflow.
+* /templates: Contains the JSON Automation Document used to define the workflow.
 
-/scripts: Validation commands and scripts for testing service health.
+* /scripts: Validation commands and scripts for testing service health.
 
-README.md: Project documentation and lessons learned.
+* README.md: Project documentation and lessons learned.
 
 🎓 Lessons Learned
 
