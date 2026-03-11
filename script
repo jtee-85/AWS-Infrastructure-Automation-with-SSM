@@ -1,1 +1,4 @@
-
+# For MariaDB
+sudo systemctl status mariadb
+# For Apache
+sudo systemctl status httpd
