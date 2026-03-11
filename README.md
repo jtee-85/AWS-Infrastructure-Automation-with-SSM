@@ -1,4 +1,4 @@
-AWS Infrastructure Automation with SSM
+AWS Infrastructure Automation with SSM.
 This repository contains the workflow and documentation for automating AWS infrastructure deployment using AWS Systems Manager (SSM) Automation.
 
 By utilizing SSM Automation documents, I transitioned from manual EC2 configuration to a "hands-off," repeatable deployment process that handles both infrastructure provisioning and software bootstrapping.
