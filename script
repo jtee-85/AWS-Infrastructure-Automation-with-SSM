@@ -2,3 +2,6 @@
 sudo systemctl status mariadb
 # For Apache
 sudo systemctl status httpd
+# Verify the password was successfully set
+mysql -uroot -pmysecureencryptedpassword
+
